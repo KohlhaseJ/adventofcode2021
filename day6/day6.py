@@ -1,6 +1,6 @@
 lanternsCount = [0 for _ in range(9)]
 
-with open("c:/dev/adventofcode/day6/input.txt") as f:
+with open("input.txt") as f:
   for i in f.readlines()[0].split(','):
     lanternsCount[int(i)] += 1
 

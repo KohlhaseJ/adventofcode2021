@@ -42,7 +42,7 @@ def binaryMinSearch(arr, left, right, fcost, lastcost):
     return binaryMinSearch(arr, mid, right, fcost, currentcost) 
 
 
-with open("c:/dev/adventofcode/day7/input.txt") as f:
+with open("input.txt") as f:
   crabpositions = [int(i) for i in f.readlines()[0].split(',')]
 crabpositions.sort()
 

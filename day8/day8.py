@@ -1,7 +1,7 @@
 inputValues = []
 outputValues = []
 
-with open("c:/dev/adventofcode/day8/input.txt") as f:
+with open("input.txt") as f:
   for line in f.readlines():
     line = line.rstrip('\n')
     inputValues.append([i for i in line.split(' | ')[0].split(' ')])

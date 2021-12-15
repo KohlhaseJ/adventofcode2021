@@ -1,4 +1,4 @@
-with open("c:/dev/adventofcode/day1/input.txt") as f:
+with open("input.txt") as f:
   input = f.readlines()
 
 input = list(map(int, input))

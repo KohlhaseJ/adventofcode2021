@@ -1,5 +1,5 @@
 lines = []
-with open("c:/dev/adventofcode/day5/input.txt") as f:
+with open("input.txt") as f:
   for line in f.readlines():
     lines.append([int(n) for point in line.rstrip('\n').split(' -> ') for n in point.split(',')])
 

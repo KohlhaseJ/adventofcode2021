@@ -33,7 +33,7 @@ def calculateResult(board, marker, number):
   result = sum([value if bit == 0 else 0 for value, bit in zip(flat_board, flat_marker)])*number
   return result
 
-with open("c:/dev/adventofcode/day4/input.txt") as f:
+with open("input.txt") as f:
   for i, line in enumerate(f.readlines()):
     if i == 0:
       numbers = [int(n) for n in line.rstrip('\n').split(',')]

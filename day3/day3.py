@@ -1,5 +1,5 @@
 input = []
-with open("c:/dev/adventofcode/day3/input.txt") as f:
+with open("input.txt") as f:
   for line in f.readlines():
     input.append([int(i) for i in line.rstrip('\n')])
 
