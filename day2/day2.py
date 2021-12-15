@@ -14,7 +14,7 @@ for line in input:
   if direction == "up":
     depth -= steps
 
-
+print("Part 1")
 print("horizontalPosition {}, depth {}".format(horizontalPosition, depth))
 print("Answer {}".format(horizontalPosition * depth))
 horizontalPosition = 0
@@ -32,6 +32,6 @@ for line in input:
   if direction == "up":
     aim -= steps
 
-
+print("\nPart 2")
 print("horizontalPosition {}, depth {}".format(horizontalPosition, depth))
 print("Answer {}".format(horizontalPosition * depth))

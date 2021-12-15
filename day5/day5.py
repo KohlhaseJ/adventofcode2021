@@ -21,4 +21,4 @@ for line in lines:
       matrix[y][x] += 1
 
 result = sum([1 if x > 1 else 0 for row in matrix for x in row])
-print(result)
+print("Number of intersection points: {}".format(result))

@@ -8,7 +8,7 @@ for i in range(1, len(input)):
   if input[i] > input[i-1]:
     timesIncreased += 1
 
-print("Input increased {} times".format(timesIncreased))
+print("Part 1: input increased {} times".format(timesIncreased))
 
 slidingWindowSize = 3
 timesIncreased = 0
@@ -19,4 +19,4 @@ for i in range(1, len(input)-slidingWindowSize+1):
   if B > A:
     timesIncreased += 1
   
-print("Input increased over sliding window (size {}) {} times".format(slidingWindowSize, timesIncreased))
+print("Part 2: input increased {} times over sliding window of size {}".format(timesIncreased, slidingWindowSize))
